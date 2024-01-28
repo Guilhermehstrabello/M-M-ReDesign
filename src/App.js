@@ -18,8 +18,8 @@ function App() {
           <a href="#">Faça Seu Pacote M&M</a>
         </nav>
         <div className="Icons">
-          <FaUser size={20} color="#50221C" />
-          <FaShoppingCart size={20} color="#50221C" />
+          <FaUser size={20} color="#50221C" id='user' />
+          <FaShoppingCart size={20} color="#50221C" id='cart' />
         </div>
       </header>
 

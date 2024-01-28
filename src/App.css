@@ -29,11 +29,27 @@
   text-decoration: none;
   color: #50221C;
   font-size: 20px;
+  transition: box-shadow 1s ease-in-out;
+}
+
+.NavLinks a:hover {
+  border-bottom: solid 2px #50221C;
+  scale: 1.1;
 }
 
 .Icons {
   display: flex;
+  cursor: pointer;
   gap: 100px; /* Espaçamento entre os ícones */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+#user:hover{
+  scale: 1.2;
+}
+
+#cart:hover{
+  scale: 1.2;
 }
 
 .Hero {
